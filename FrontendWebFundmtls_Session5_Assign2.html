@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Time - Hours and Minutes</title>
+
+	</head>
+	
+	<body>
+		<div>
+			<h2> Time - Hours and Minutes</h2>
+			<div class="row">
+				<div id="text"></div>
+			</div>			
+		</div>
+
+		<script type="text/javascript">
+			
+			var t = new Date();
+			time = t.getHours() + ":" + t.getMinutes();
+			// alert("Time is :" + time);
+			document.getElementById('text').innerHTML = "Time is - " + time;
+
+		</script>
+
+
+	</body>
+</html>
